@@ -5,10 +5,6 @@ public class Task {
         this.taskMessage = taskMessage1;
     }
 
-    public String getTaskMessage() {
-        return taskMessage;
-    }
-
     @Override
     public String toString() {
         return " " + taskMessage;
