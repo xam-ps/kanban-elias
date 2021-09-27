@@ -1,9 +1,12 @@
 public class main {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
-        KanbanBoard board1 = new KanbanBoard();
-        board1.createKanbanBoard();
+        Board board = new Board();
+        KanbanService service = new KanbanService();
+
+        service.createCard(board);
+        board.printBoard();
 
     }
 }
