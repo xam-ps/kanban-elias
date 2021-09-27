@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Task {
     private String taskMessage;
 
@@ -16,5 +14,3 @@ public class Task {
         return " " + taskMessage;
     }
 }
-
-

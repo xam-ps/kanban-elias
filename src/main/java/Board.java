@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class Board {
@@ -10,7 +9,6 @@ public class Board {
     private String status1 = "Waiting";
     private String status2 = "InProgress";
     private String status3 = "Done";
-
 
     public void addTaskToWaiting(Task newTask) {
         waitingTasks.add(newTask);
@@ -27,7 +25,6 @@ public class Board {
         inProgressTasks.remove(whichElement);
         printBoard();
     }
-
 
     public void printBoard() {
         System.out.println("Kanban");
