@@ -4,8 +4,4 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class KanbanServiceTest {
 
-    @Test
-
-
-
 }
