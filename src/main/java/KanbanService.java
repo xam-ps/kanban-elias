@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class KanbanService {
 
-    public void createCard(Board board) {
+    public void createCardWithInput(Board board) {
 
         Scanner scanner = new Scanner(System.in);
 
@@ -47,8 +47,8 @@ public class KanbanService {
         String whatMove = scanner.next();
         if (whatMove.equals("Done")) {
             System.out.println("Which Task do you want to move(0 - 2)?");
-            int whichElement = scanner.nextInt();
-            board.moveTaskToDone(whichElement);
+            int taskIndex = scanner.nextInt();
+            board.moveTaskToDone(taskIndex);
         } else {
             System.out.println("Which Task do you want to move(0 - 2)?");
             int whichElement = scanner.nextInt();

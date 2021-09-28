@@ -1,8 +1,8 @@
 public class Task {
     private String taskMessage;
 
-    Task(String taskMessage1) {
-        this.taskMessage = taskMessage1;
+    Task(String taskMessage) {
+        this.taskMessage = taskMessage;
     }
 
     @Override

@@ -6,9 +6,6 @@ public class Board {
     private List<Task> waitingTasks = new ArrayList<>();
     private List<Task> inProgressTasks = new ArrayList<>();
     private List<Task> doneTasks = new ArrayList<>();
-    private String status1 = "Waiting";
-    private String status2 = "InProgress";
-    private String status3 = "Done";
 
     public void addTaskToWaiting(Task newTask) {
         waitingTasks.add(newTask);

@@ -5,7 +5,7 @@ public class main {
         Board board = new Board();
         KanbanService service = new KanbanService();
 
-        service.createCard(board);
+        service.createCardWithInput(board);
         board.printBoard();
 
     }
