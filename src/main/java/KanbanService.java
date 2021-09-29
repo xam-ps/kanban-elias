@@ -23,9 +23,9 @@ public class KanbanService {
 
             board.printBoard();
             System.out.println("Do you want to move a Task?\n y = yes\n n = no");
-            String inputAnswer2 = scanner.next();
+            inputAnswer = scanner.next();
 
-            if (inputAnswer2.equals("y")) {
+            if (inputAnswer.equals("y")) {
                 moveTask(board, scanner);
                 System.out.println("Move another Task?\n y = yes\n n = no");
                 String moveAnother = scanner.next();

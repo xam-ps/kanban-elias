@@ -29,10 +29,19 @@ public class Board {
             System.out.println("Waiting: " + i + waitingTasks.get(i));
         }
         for (int i = 0; i < inProgressTasks.size(); i++) {
-            System.out.println("In Progress: " + i + inProgressTasks.get(i));
+            System.out.println("In Progress: " + i + " " + inProgressTasks.get(i));
         }
         for (int i = 0; i < doneTasks.size(); i++) {
             System.out.println("Done: " + i + doneTasks.get(i));
         }
+    }
+    public List<Task> getWaitingList(){
+        return waitingTasks;
+    }
+    public List<Task> getInProgressList(){
+        return inProgressTasks;
+    }
+    public List<Task> getDoneList(){
+        return doneTasks;
     }
 }
